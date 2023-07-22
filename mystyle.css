@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+br{
+    margin-bottom: 15px;
+}
+
+.top-link{
+    display: block;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+header, .item-pendaftar, .action-link{
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    background-color: white;
+}
+
+.item-pendaftar img{
+    width: 150px;
+    height: 230px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px;
+}
+
+.deskripsi-pendaftar{
+    width: 230px;
+    float: left;
+
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.value{
+    font-weight: normal;
+    margin-bottom: 13px;
+}
+
+.action-link{
+    padding-top: 0;
+    border-bottom: 1px solid darkgrey;
+}
+
+.item-pendaftar{
+    padding-bottom: 0 ;
+    
+}
+
+main{
+    width: 500px;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+}
+
+.display-block, input[type='submit']{
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 15px;
+}
+
+input, label, select{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input{
+    padding: 3px;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+main h2{
+    margin-bottom: 20px;
+}
+
+main h1{
+    margin-bottom: 7px;
+}
+
+.img-before{
+    width: 300px;
+    
+}
+
+.errormessage{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+}
